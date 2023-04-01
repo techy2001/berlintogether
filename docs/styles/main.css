@@ -109,6 +109,10 @@ footer {
   list-style: none;
 }
 
+.page-content {
+  min-height: calc(100vh - <footer-height>);
+}
+
 @media (max-width: 768px) {
   nav {
     display: none;
